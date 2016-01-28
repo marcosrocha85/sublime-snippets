@@ -1,0 +1,14 @@
+<!-- 
+  Pascal Code Snippets by Marcos Rocha
+  This snippet is under MIT License. Feel free to change anything you want since you keep credits.
+  More at: https://github.com/marcosrocha85/sublime-snippets
+-->
+<snippet>
+  <content><![CDATA[
+procedure ${1:Foo};
+begin
+  $0
+end;]]></content>
+  <tabTrigger>procedure</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

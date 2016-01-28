@@ -1,0 +1,18 @@
+<!-- 
+  Pascal Code Snippets by Marcos Rocha
+  This snippet is under MIT License. Feel free to change anything you want since you keep credits.
+  More at: https://github.com/marcosrocha85/sublime-snippets
+-->
+<snippet>
+  <content><![CDATA[
+if ${1:true} then
+begin
+  $0
+end
+else
+begin
+
+end;]]></content>
+  <tabTrigger>ife</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

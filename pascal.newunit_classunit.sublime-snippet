@@ -1,0 +1,24 @@
+<!-- 
+  Pascal Code Snippets by Marcos Rocha
+  This snippet is under MIT License. Feel free to change anything you want since you keep credits.
+  More at: https://github.com/marcosrocha85/sublime-snippets
+-->
+<snippet>
+  <content><![CDATA[
+unit u${1};
+
+interface
+
+type
+  T${1} = ${2:class(TObject)}
+  $0
+  end;
+
+implementation
+
+end.
+]]>
+</content>
+  <tabTrigger>newunit_classunit</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<!-- 
+  Pascal Code Snippets by Marcos Rocha
+  This snippet is under MIT License. Feel free to change anything you want since you keep credits.
+  More at: https://github.com/marcosrocha85/sublime-snippets
+-->
+<snippet>
+  <content><![CDATA[
+try
+  $0
+except
+  on ${1:E}: ${2:Exception} do
+  begin
+    ${3:DoAnything};
+  end;
+end;]]></content>
+  <tabTrigger>trye</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

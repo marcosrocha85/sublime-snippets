@@ -1,0 +1,15 @@
+<!-- 
+  Pascal Code Snippets by Marcos Rocha
+  This snippet is under MIT License. Feel free to change anything you want since you keep credits.
+  More at: https://github.com/marcosrocha85/sublime-snippets
+-->
+<snippet>
+  <content><![CDATA[
+case ${1:i} of
+  ${2:0}: $0;
+else
+
+end;]]></content>
+  <tabTrigger>casee</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>

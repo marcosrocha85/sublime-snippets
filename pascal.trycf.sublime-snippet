@@ -1,0 +1,17 @@
+<!-- 
+  Pascal Code Snippets by Marcos Rocha
+  This snippet is under MIT License. Feel free to change anything you want since you keep credits.
+  More at: https://github.com/marcosrocha85/sublime-snippets
+-->
+<snippet>
+  <content><![CDATA[
+${1:Obj} := ${2:TObject}.Create${3:()};
+try
+  $0
+finally
+  FreeAndNil(${1:Obj});
+end;
+]]></content>
+  <tabTrigger>trycf</tabTrigger>
+  <scope>source.pascal</scope>
+</snippet>
